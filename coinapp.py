@@ -9,7 +9,7 @@ import threading
 DATABASE_SERVER = '35.192.200.165'
 DATABASE_NAME = 'CRYPTO_MAIN_DATA'
 DATABASE_USERNAME = 'opsadmin'
-DATABASE_PASSWORD = 'labNULP!21'
+DATABASE_PASSWORD = ''
 db_connection = msql.connect(host=DATABASE_SERVER, user=DATABASE_USERNAME, password=DATABASE_PASSWORD, database=DATABASE_NAME)
 print(db_connection)
 sql_query = "INSERT IN TO BTC_USD_DATA (Name, Price_USD, Market_Capitalization_USD, Date_Stamp)"
